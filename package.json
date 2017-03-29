@@ -1,6 +1,6 @@
 {
   "name": "node-objs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "deal with js object",
   "main": "./index.js",
   "scripts": {

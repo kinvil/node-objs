@@ -1,0 +1,27 @@
+{
+  "name": "node-objs",
+  "version": "0.0.1",
+  "description": "deal with js object",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha test.js",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinvil/objs.git"
+  },
+  "keywords": ["javascript", "object"],
+  "author": "Kinvil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kinvil/objs/issues"
+  },
+  "homepage": "https://github.com/kinvil/objs#readme",
+  "devDependencies": {
+    "coveralls": "^2.12.0",
+    "expect.js": "^0.3.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
